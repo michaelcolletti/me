@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>None</loc>
+         <loc>https://sourcefoundry.org/cinder/</loc>
          <lastmod>2022-02-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>None</loc>
+         <loc>https://sourcefoundry.org/cinder/TechTwitterDevops/</loc>
          <lastmod>2022-02-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>None</loc>
+         <loc>https://sourcefoundry.org/cinder/about/</loc>
          <lastmod>2022-02-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>None</loc>
+         <loc>https://sourcefoundry.org/cinder/bass/</loc>
          <lastmod>2022-02-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>None</loc>
+         <loc>https://sourcefoundry.org/cinder/code/</loc>
          <lastmod>2022-02-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>None</loc>
+         <loc>https://sourcefoundry.org/cinder/devops/</loc>
          <lastmod>2022-02-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>None</loc>
+         <loc>https://sourcefoundry.org/cinder/k8s/</loc>
          <lastmod>2022-02-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
