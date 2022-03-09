@@ -1,0 +1,34 @@
+site_name: Michael Colletti 
+site_author: Michael Colletti 
+copyright: ScreenDream Productions 2022
+remote_name: project-newjam
+site_description: For code, learning resources, cool tools and projects
+repo_url: https://github.com/michaelcolletti/project-newjam.git
+repo_name: Code and Things
+
+theme:
+    name: mkdocs
+    highlightjs: true
+    hljs_languages:
+        - yaml
+        - rust
+        - json
+        - python
+    locale: en
+    custom_dir: custom
+    nav_style: dark
+#    color_scheme: 
+#    static_templates:
+#        - sitemap.html
+    include_sidebar: true
+nav:
+  - Home: index.md
+  - Bass: bass.md
+  - DevOps: devops.md
+  - About: about.md
+  - K8s: k8s.md
+
+#    - 'index.md'
+#    - 'about.md'
+#    - 'devops.md'
+#    - 'k8s.md'
