@@ -3,7 +3,7 @@ site_author: Michael Colletti
 copyright: ScreenDream Productions 2022
 remote_name: project-newjam
 site_description: For code, learning resources, cool tools and projects
-repo_url: https://github.com/michaelcolletti/project-newjam.git
+repo_url: https://github.com/michaelcolletti/me.git
 repo_name: Code and Things
 
 theme:
