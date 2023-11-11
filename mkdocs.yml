@@ -1,7 +1,7 @@
 site_name: Michael Colletti 
 site_author: Michael Colletti 
-copyright: ScreenDream Productions 2022
-remote_name: project-newjam
+copyright: ScreenDream Productions 2023
+remote_name: me
 site_description: For code, learning resources, cool tools and projects
 repo_url: https://github.com/michaelcolletti/me.git
 repo_name: Code and Things
@@ -15,7 +15,7 @@ theme:
         - json
         - python
     locale: en
-    custom_dir: custom
+#    custom_dir: custom
     nav_style: dark
 #    color_scheme: 
 #    static_templates:
@@ -25,6 +25,7 @@ nav:
   - Home: index.md
   - Bass: bass.md
   - DevOps: devops.md
+  - GCP: gcp.md
   - About: about.md
   - K8s: k8s.md
 
