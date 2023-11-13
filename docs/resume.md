@@ -13,8 +13,7 @@ Twitter: @devnullid
 <a href="mailto:devnullid+githubcontact@gmail.com?subject=Service Query From Resume"><img src="https://img.shields.io/badge/gmail-%23DD0031.svg?&style=for-the-badge&logo=gmail&logoColor=white"/></a>
 ____
 
-Google [Cloud Engineer ACE Badge](https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/86758246) 
-Google [Cloud Engineer ACE Cert](https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/86758246)
+- Google [Cloud Engineer ACE Badge](https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/86758246) and [Cloud Engineer ACE Cert](https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/86758246)
 
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="2d5a75b0-b7c8-4682-9149-c2fe1e3c312f" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 
@@ -23,6 +22,7 @@ Google [Cloud Engineer ACE Cert](https://api.accredible.com/v1/frontend/credenti
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="813d732e-7144-4078-9642-c775efd7bf07" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="ded1e787-054c-4674-a4f1-c532b51049e3" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+
 
 
 
