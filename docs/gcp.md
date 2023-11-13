@@ -3,7 +3,6 @@
 - Random thoughts on the platform start with the certification preparation being so different from the training experience. Overall the training experience was deeper and laden with places to understand the architectural reasoning around decisions made. In the ACE material, I didn't sense the depth of what was covered in the questions. 
 - Perhaps it's not reasonable to expect nuance in a multiple choice format and associate level so I understand. 
 
-
 ### Projects: Bringing Workloads to GCP
 
 - There are too many ways to do this. Here are just a few
@@ -20,7 +19,6 @@
 ### Stash Your Admin Work in Functions
 
 - Cron some toil away in Scheduler and cron objects
-
 
 ### Miniturize Your Work with GCP
 

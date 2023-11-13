@@ -88,4 +88,3 @@ ___
 * Terraform stand up of small AWS infrastructure (VPCS, private/public subnets, IGW, NATGW, SG, NACLS, EC2, S3, EFS)
 
 * Stand up of GKE cluster in GCP. Deployment of monitoring stack via Helm and simple pipelines with Tekton. 
-

@@ -1,7 +1,7 @@
 site_name: Michael Colletti 
 site_author: Michael Colletti 
 copyright: ScreenDream Productions 2023
-remote_name: me
+remote_name: 
 site_description: For code, learning resources, cool tools and projects
 repo_url: https://github.com/michaelcolletti/me.git
 repo_name: Code and Things
@@ -23,14 +23,9 @@ theme:
     include_sidebar: true
 nav:
   - Home: index.md
-  - Resume: resume.md
   - Bass: bass.md
   - DevOps: devops.md
+  - Resume: resume.md
   - GCP: gcp.md
   - About: about.md
-  - K8s: k8s.md
-
-#    - 'index.md'
-#    - 'about.md'
-#    - 'devops.md'
-#    - 'k8s.md'
+  - Kubernetes: k8s.md
