@@ -23,6 +23,7 @@ theme:
     include_sidebar: true
 nav:
   - Home: index.md
+  - Resume: resume.md
   - Bass: bass.md
   - DevOps: devops.md
   - GCP: gcp.md
