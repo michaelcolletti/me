@@ -8,7 +8,7 @@
     <title>DevOps - Michael Colletti</title>
     <link rel="stylesheet" href="../css/theme.css" />
     <link rel="stylesheet" href="../css/theme_extra.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
     
       <script>
         // Current page data
@@ -17,17 +17,15 @@
         var mkdocs_page_url = null;
       </script>
     
-    <script src="../js/jquery-3.6.0.min.js" defer></script>
     <!--[if lt IE 9]>
       <script src="../js/html5shiv.min.js"></script>
     <![endif]-->
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/languages/yaml.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/languages/rust.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/languages/json.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/languages/python.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/languages/hcl.min.js"></script>
-      <script>hljs.initHighlightingOnLoad();</script> 
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/yaml.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/rust.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/json.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/python.min.js"></script>
+      <script>hljs.highlightAll();</script> 
 </head>
 
 <body class="wy-body-for-nav" role="document">
@@ -39,7 +37,7 @@
           <a href=".." class="icon icon-home"> Michael Colletti
         </a><div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
-      <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
   </form>
 </div>
       </div>
@@ -60,21 +58,15 @@
               <ul class="current">
                 <li class="toctree-l1 current"><a class="reference internal current" href="./">DevOps</a>
     <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#devops-resources">DevOps  Resources</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#devops-notes-and-resources">DevOps Notes and Resources</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#deming-tpsohno-and-lean">Deming, TPS/Ohno and Lean</a>
-    </li>
     </ul>
                 </li>
               </ul>
               <ul>
-                <li class="toctree-l1"><a class="reference internal" href="../about/">Hey</a>
+                <li class="toctree-l1"><a class="reference internal" href="../gcp/">GCP</a>
                 </li>
               </ul>
               <ul>
-                <li class="toctree-l1"><a class="reference internal" href="../terraform/">Terraform</a>
+                <li class="toctree-l1"><a class="reference internal" href="../about/">About</a>
                 </li>
               </ul>
               <ul>
@@ -94,10 +86,10 @@
       <div class="wy-nav-content">
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
-    <li><a href=".." class="icon icon-home" alt="Docs"></a> &raquo;</li>
-      <li>DevOps</li>
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">DevOps</li>
     <li class="wy-breadcrumbs-aside">
-        <a href="https://github.com/michaelcolletti/me/edit/master/docs/devops.md"> Edit on Code and Things</a>
+          <a href="https://github.com/michaelcolletti/me.git/edit/master/docs/devops.md">Edit on Code and Things</a>
     </li>
   </ul>
   <hr/>
@@ -105,74 +97,24 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h2 id="big-honking-devops-page-of-love">Big Honking DevOps Page of Love</h2>
-<h3 id="devops-resources">DevOps  Resources</h3>
+                <h1 id="big-honking-devops-page-of-love">Big Honking DevOps Page of Love</h1>
 <ul>
-<li><a href="https://devopsdays.org">DevOpsDays</a></li>
-<li>
-<p><a href="https://michaelcolletti.github.io/devops-writings">DevOps Writings</a></p>
-</li>
-<li>
-<p>Learning Platforms (coming)</p>
-</li>
-</ul>
-<h3 id="devops-notes-and-resources">DevOps Notes and Resources</h3>
-<ul>
-<li>Germinated as conversations around Agile System Admin practices: @littleidea, @patrickdebois</li>
-<li>MeetUp organized by Patrick Debois in Ghent, Belgium 2009 <a href="https://devopsdays.org/events/2019-ghent/welcome/"> Decade Anniversary</a></li>
-<li><a href="https://gist.github.com/botchagalupe/fa9f8f83c34b6b2dadf5fd54b38a4611">John Willis aka @Botchagalupe</a> the meta-gist motherlode of DevOps Goodness</li>
-<li>CALMS: <em>C</em>ulture, <em>A</em>utomation, <em>L</em>ean, <em>M</em>easurement, <em>S</em>haring (John Willis/Damon Edwardsi for moree see DevOps Cafe) </li>
-<li>What is the role of Site Reliability Engineer? <a href="https://sre.google/sre-book/table-of-contents/">SRE Book</a> and <a href="https://sre.google/workbook/table-of-contents/">SRE Workbook</a>. <a href="https://sre.google/workbook/how-sre-relates/">How SRE relates to DevOps</a></li>
-<li><a href="https://www.devops-research.com/research.html">DORA</a> DevOps Data and Metrics singularity <a href="https://nicolefv.com/">Dr. Nicole Forsgren</a> @nicolefv</li>
-<li>Accelerate (deserves its own entry with DevOps Handbooks)</li>
-<li>Jez Humble Continuous Integration/Continuous Delivery (also DORA and Accelerate)</li>
-<li>Mark Burgess CFEngine, Promise Theory and how the field of physics informs IT. Burgess pretty much invented modern config management space. By extension heavily influenced Adam Jacob @OPsCode/Chef</li>
-<li>Config Management Prime-Movers : Luke Kaines (Puppet) and Adam Jacob (Chef) Michael DeHann (Ansible) Mitchell Hashimoto (Terraform) Jeff Snover (PowerShell)</li>
-<li>Gene Kim (Visible Ops, ITRevolution, DOES) @realgenekim <a href="https://www.slideshare.net/realgenekim/when-it-fails-the-business-fails">When IT Fails</a></li>
-<li><a href="https://events.itrevolution.com/">DevOps Enterprise Summits</a></li>
-<li><a href="https://sergiocaredda.eu/inspiration/asides/netflix-culture-deck/">Netflix Culture Deck</a> and <a href="https://www.youtube.com/watch?v=80bymIwYrlI">Patty McCord</a> <a href="https://www.youtube.com/watch?v=uvG0aCbuG60">TED TALK</a></li>
-<li>Adrian Cockroft  (Sun/Netflix/AWS) Chaos Engineering and a ton more. Check his talks and dig his <a href="http://a.co/79CGMfB">book recommendations</a></li>
-<li>Podcasts: Cloud Cafe, DevOps Cafe, Arrested Devops, The Ship Show, Software Defined Talk</li>
-<li>DevOps Readiness Assessment <a href="https://www.devops-research.com/research.html">DORA</a></li>
-<li><a href="https://devopsdays.org">DevOpsDays</a>: Conferences arguably were the structures that germanated the movement's accelerated adoption and cloud. The conferences help ignite the DevOps cultural movement/moment.</li>
-<li>DevSecOps: James Wickett, Rudgged DevOps Justin Cormack (IAmTheCalvary)</li>
-<li>Simon Wardley: Wardley Mapping as a strategic tool. It's like he can tell the future and often does.</li>
-<li>The Emergence of Serverless</li>
-<li>Twitter handles for some cool folks in DevOps and SRE <a href="../TechTwitterDevops/">here</a></li>
-</ul>
-<h3 id="deming-tpsohno-and-lean">Deming, TPS/Ohno and Lean</h3>
-<ul>
-<li>W. Edwards Deming</li>
-<li>The tremendous influence of W. Edwards Deming. See <a href="https://www.profound-deming.com/">profound site Podcast</a> the System of Profound Knowledge (SoPK)</li>
-<li>Toyota Production System, Taiichi Ohno, Lean Manufacturing</li>
-<li>Goldratt the Theory of Constraints (TOC). Also see <em>The Goal</em> and <em>The Phoenix Project</em> (Gene Kim)</li>
-</ul>
-<h2 id="_1"></h2>
-<h2 id="seminal-videos">Seminal Videos</h2>
-<ul>
-<li>John Allspaw and Paul Hammond at Flickr <a href="https://www.youtube.com/watch?v=LdOe18KhtT4">10+ deploys a day </a>(Velocity 2009)</li>
-<li>Ben Rockwood: <a href="https://www.usenix.org/blog/devops-transformation">The DevOps Transformation</a></li>
-<li>Andrew Clay Shafer <em><a href="https://www.youtube.com/watch?v=NAazenCRQSY">There is No Talent Shortage</a></em></li>
-<li>Alice GoldFuss <a href="https://www.youtube.com/watch?v=q1BnNRId0R4">MN DoD 2019 The Containe Operator Manual</a></li>
-<li><a href="https://www.youtube.com/watch?v=LGaD9p1rQ2s">Kelly Shortridge and Dr. Nicole Forsgren</a> <em>Controlled Chaos: The Inevitable Marriage of DevOps &amp; Security</em></li>
-</ul>
-<h2 id="seminal-texts">Seminal Texts</h2>
-<ul>
-<li><a href="http://theleanstartup.com/">The Lean Startup</a> Steven Blank's book <a href="https://web.stanford.edu/group/e145/cgi-bin/winter/drupal/upload/handouts/Four_Steps.pdf">The Four Steps to Ephiphany</a> heavily influenced Eric Reis as a student at Stanford.</li>
+<li>Resources</li>
+<li>Learning Platforms </li>
 </ul>
               
             </div>
           </div><footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
         <a href="../bass/" class="btn btn-neutral float-left" title="Bass"><span class="icon icon-circle-arrow-left"></span> Previous</a>
-        <a href="../about/" class="btn btn-neutral float-right" title="Hey">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../gcp/" class="btn btn-neutral float-right" title="GCP">Next <span class="icon icon-circle-arrow-right"></span></a>
     </div>
 
   <hr/>
 
   <div role="contentinfo">
     <!-- Copyright etc -->
-      <p>ScreenDream Productions 2022</p>
+      <p>ScreenDream Productions 2023</p>
   </div>
 
   Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
@@ -192,18 +134,19 @@
       <span><a href="../bass/" style="color: #fcfcfc">&laquo; Previous</a></span>
     
     
-      <span><a href="../about/" style="color: #fcfcfc">Next &raquo;</a></span>
+      <span><a href="../gcp/" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>
-    <script>var base_url = '..';</script>
-    <script src="../js/theme_extra.js" defer></script>
-    <script src="../js/theme.js" defer></script>
-      <script src="../search/main.js" defer></script>
-    <script defer>
-        window.onload = function () {
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
             SphinxRtdTheme.Navigation.enable(true);
-        };
+        });
     </script>
 
 </body>
