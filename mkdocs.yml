@@ -7,7 +7,7 @@ repo_url: https://github.com/michaelcolletti/me.git
 repo_name: Code and Things
 
 theme:
-    name: mkdocs
+    name: readthedocs
     highlightjs: true
     hljs_languages:
         - yaml

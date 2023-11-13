@@ -4,9 +4,9 @@ _I have many interests; devops/tech/cloud/kubernetes, music, bass guitar, compos
 
 * Original Code Site, have a site for scripts and metastore for tech, music, devops projects. 
 
-* Cool developments in spaces I'm watching
+* Spaces I'm watching and Working in
 * [YouTube Channel](https://www.youtube.com/user/devnullid/videos)
-* [Twitter Feed](https://twitter.com/devnullid)
+* [Mastodon Feed](https://hachyderm.io/@LegacyWhisperer)
 * [Creative Possibilities](https://cpossibilities.com/)
 
 * How-to do stuff 
