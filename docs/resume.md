@@ -24,8 +24,6 @@ ____
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="ded1e787-054c-4674-a4f1-c532b51049e3" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 
 
-
-
 * Lifelong learner inspired by DevOps culture, principles, practices and tools
 * Solid communicator, cross-functional team collaborator & Individual Contributor
 * Opensource advocate, Ops and Infra-nerd, Architect and Monitoring savant
@@ -43,11 +41,12 @@ ___
 
 ## Cloud
 
+* Google Cloud [Certified Google Cloud Engineer](https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/86758246) and [ACE Cert](https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/86758246). Passionate about tooling and building in Google Cloud. 
+
 * [HashiCorp Certified Cloud Engineer: Terraform Certified Associate (HCTAO-002)](https://www.credly.com/badges/2d5a75b0-b7c8-4682-9149-c2fe1e3c312f/public_url)
 * AWS: [Amazon Web Services Certified Developer](https://www.credly.com/badges/56e5f89c-0bc3-45f4-86c6-f0defdf0d2f1/public_url) 2022-2025
 * AWS: [Amazon Web Services Certified Solutions Architect](https://www.credly.com/badges/ad3acd8d-d45a-48f5-a754-40602a58c1e4/public_url) (2019-2022)
 * [Azure](https://www.credly.com/badges/750f9656-f620-41e1-9a1b-a27dcfab7ebd/public_url): Familiar with ACS, AKS, ARM templates, Bicep, Azure CAF
-* GCP: Passionate about tooling and building infrastructures in Google Cloud, mostly in Terraform. 
 
 ## Containers, Kubernetes, Automation, Modernization and Observability
 
