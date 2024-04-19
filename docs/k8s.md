@@ -6,11 +6,7 @@ _Random ideas about the platform and cool projects around it_
 
 - [K8sYaml](https://k8syaml.com)
 
-### Plaitforms 
+### Platforms 
 
 - [Mumshad](https://kodeKloud.com)
 - [Engineering Playground](https://www.kodekloud-engineer.com/)
-- [KataKoda](https://katakoda.com]
-
-
-### 

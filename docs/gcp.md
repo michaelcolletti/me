@@ -15,10 +15,13 @@
 ### Create GCP Pipelines Like Nutin
 
 - Your 6 line gcloud command to nirvana build grooviness
+- A full GCP pipeline from scratch using Deployment Manager
+
 
 ### Stash Your Admin Work in Functions
 
 - Cron some toil away in Scheduler and cron objects
+- Use Cloud Run for serverless admin functions 
 
 ### Miniturize Your Work with GCP
 
@@ -31,6 +34,11 @@
 - Here there is metadata of all the public datasets Google makes available in the GCP platform. 
 - We'll examine BigQuery and slicing up this data. 
 
+### Using GCP AI Services 
+
+- List of services and popular use-cases 
+- Page for Google Models in HF and S
+
 ### Low-Code Solutions and GAI
 
 - Here we'll examine AppSheet and low-code approaches towards appdev.
@@ -39,9 +47,7 @@
 
 - Recreate OnPremises Jenkins in GCP Cloud Build (Click-Through)
 - Build in Cloud Build and Cloud Run with one easy-to-use workflow. 
-- 
-
-- Start [here](https://cloud.google.com/build/docs/automate-builds) and 
+- Start [here](https://cloud.google.com/build/docs/automate-builds)  
 - Use your existing pipeline.json and Jenkinsfiles to inform Github Actions 
-- Setup [triggers( in Cloud Build like a champ
+- Setup [triggers] in Cloud Build like 
 

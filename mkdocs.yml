@@ -1,7 +1,7 @@
 site_name: Michael Colletti 
 site_author: Michael Colletti 
-copyright: ScreenDream Productions 2023
-remote_name: 
+copyright: Creative Possibilities Inc. 2024
+remote_name: gh-deploy
 site_description: For code, learning resources, cool tools and projects
 repo_url: https://github.com/michaelcolletti/me.git
 repo_name: Code and Things
@@ -25,7 +25,8 @@ nav:
   - Home: index.md
   - Bass: bass.md
   - DevOps: devops.md
+  - DevOps-GenAI Primer: genai-devops-primer.md
+  - Backstage: backstage.md
   - Resume: resume.md
   - GCP: gcp.md
-  - About: about.md
-  - Kubernetes: k8s.md
+  - Terraform: terraform.md
