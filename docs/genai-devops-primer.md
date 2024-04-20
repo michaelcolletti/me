@@ -1,6 +1,6 @@
 ## GenAI-DevOps-Primer Overview
 
-- The inspiration and much of the material for the below GenAI resources comes from the creator of the DevOps cultural movement, [Patrick Debois](https://www.jedi.be/). The first [NYC GenAI DevOps Hackathon](https://www.mongodb.com/community/forums/t/new-york-devops-for-genai-hackathon-nyc/260804) was held on January 24th 2024. Like Ghent in 2009, it was a transitional moment in DevOps: dev,sec,and ops have a cool cousin: data science. Through the last 15 years there have been transformational waves in devops like DevSecOps (security invited to the party) and around 2013 global acceptance then 2016 the global hegemony of devops practices. The addition of LLMs to integrations and new toolings feels very right. The dev/sec/ops frame Patrick provides makes the material even more accessible and understandable. Patrick, as a learner, has a special way of doing this. 
+- The inspiration and much of the material for the below GenAI resources comes from none other than [Patrick Debois](https://www.jedi.be/), the Godfather and OG of DevOps cultural movement and DevOpsDays. The first [NYC GenAI DevOps Hackathon](https://www.mongodb.com/community/forums/t/new-york-devops-for-genai-hackathon-nyc/260804) was held on January 24th 2024. Like Ghent in 2009, it was a transitional moment in DevOps: dev,sec,and ops have a cool cousin: data science. Through the last 15 years there have been transformational waves in devops like DevSecOps (security invited to the party) and around 2013 global acceptance then 2016 the global hegemony of devops practices. The addition of LLMs to integrations and new toolings feels very right. The dev/sec/ops frame Patrick provides makes the material even more accessible and understandable. Patrick, as a learner, has a special way of doing this. 
 
 ____
 
@@ -14,6 +14,13 @@ ____
 - Enjoy the [readout](https://github.com/OperationalizingAI/Hackathon-1-24-24/blob/main/Hackathon%2001-24-24%20Projects%20and%20Readouts.pdf) from the day's session
 - Base repo for [OperationalizingAI](https://github.com/operationalizingai) 
 - Be sure to checkout the August 2023 [GenAI workshop](https://github.com/OperationalizingAI/GAIHackathon0823).
+
+____
+
+### Followup MongoDB Hackathons for Vectorizing Data
+
+- April 8th resources and links 
+
 
 ## Patrick's Primers 
 

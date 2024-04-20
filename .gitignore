@@ -1,11 +1,6 @@
-#
-site
-
-.git
 .doc
 .docx
 .out
 .log
-site
 ../.DS_Store
 .DS_Store

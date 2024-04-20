@@ -2,23 +2,24 @@
 
 ```
 Michael G. Colletti 
-Cloud and DevOps Solutions
+Cloud, DevOps, Platforms, Containers LLMOps  
 resume@cpossibilities.com
-(845) 675-0184
+Vox: (845) 675-0184
 Git: https://github.com/michaelcolletti
-Resume: https://michaelcolletti.github.io/me/resume/
-Twitter: @devnullid
+Labs: https://github.com/cpitraininglabs
+Resume: (https://michaelcolletti.github.io/me/resume)
+Fediverse: https://hachyderm.io/@LegacyWhisperer
 ```
-
 <a href="mailto:devnullid+githubcontact@gmail.com?subject=Service Query From Resume"><img src="https://img.shields.io/badge/gmail-%23DD0031.svg?&style=for-the-badge&logo=gmail&logoColor=white"/></a>
-____
 
-- Google [Cloud Engineer ACE Badge](https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/86758246) and [Cloud Engineer ACE Cert](https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/86758246)
 
-<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="3add1452afc74d62a504c20c9967f734" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="a528e159-4217-4873-9a27-c01ca955c5b2" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 
+ <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="3add1452afc74d62a504c20c9967f734" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="2d5a75b0-b7c8-4682-9149-c2fe1e3c312f" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="3add1452afc74d62a504c20c9967f734" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="56e5f89c-0bc3-45f4-86c6-f0defdf0d2f1" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 

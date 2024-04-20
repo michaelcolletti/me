@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="author" content="Michael Colletti" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>GCP - Michael Colletti</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "GCP";
+        var mkdocs_page_input_path = "gcp.md";
+        var mkdocs_page_url = null;
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/yaml.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/rust.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/json.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/python.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> Michael Colletti
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../bass/">Bass</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../devops/">DevOps</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../genai-devops-primer/">DevOps-GenAI Primer</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../backstage/">Backstage</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../resume/">Resume</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="./">GCP</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#projects-bringing-workloads-to-gcp">Projects: Bringing Workloads to GCP</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#gcloud-sdk-oneliners-that-rule">GCloud SDK OneLiners that Rule</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#create-gcp-pipelines-like-nutin">Create GCP Pipelines Like Nutin</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#stash-your-admin-work-in-functions">Stash Your Admin Work in Functions</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#miniturize-your-work-with-gcp">Miniturize Your Work with GCP</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#public-dataset-omg">Public Dataset OMG!!!</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#using-gcp-ai-services">Using GCP AI Services</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#low-code-solutions-and-gai">Low-Code Solutions and GAI</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#automate-your-builds-better">Automate your Builds Better</a>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../terraform/">Terraform</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Michael Colletti</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">GCP</li>
+    <li class="wy-breadcrumbs-aside">
+          <a href="https://github.com/michaelcolletti/me.git/edit/master/docs/gcp.md">Edit on Code and Things</a>
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h2 id="google-cloud-platform">Google Cloud Platform</h2>
+<ul>
+<li>Random thoughts on the platform start with the certification preparation being so different from the training experience. Overall the training experience was deeper and laden with places to understand the architectural reasoning around decisions made. In the ACE material, I didn't sense the depth of what was covered in the questions. </li>
+<li>Perhaps it's not reasonable to expect nuance in a multiple choice format and associate level so I understand. </li>
+</ul>
+<h3 id="projects-bringing-workloads-to-gcp">Projects: Bringing Workloads to GCP</h3>
+<ul>
+<li>There are too many ways to do this. Here are just a few</li>
+</ul>
+<h3 id="gcloud-sdk-oneliners-that-rule">GCloud SDK OneLiners that Rule</h3>
+<ul>
+<li>Assortment of gcloud and bq/cbt scripts for the Win</li>
+<li>Automation tools and other APIs to interact with GCP</li>
+</ul>
+<h3 id="create-gcp-pipelines-like-nutin">Create GCP Pipelines Like Nutin</h3>
+<ul>
+<li>Your 6 line gcloud command to nirvana build grooviness</li>
+<li>A full GCP pipeline from scratch using Deployment Manager</li>
+</ul>
+<h3 id="stash-your-admin-work-in-functions">Stash Your Admin Work in Functions</h3>
+<ul>
+<li>Cron some toil away in Scheduler and cron objects</li>
+<li>Use Cloud Run for serverless admin functions </li>
+</ul>
+<h3 id="miniturize-your-work-with-gcp">Miniturize Your Work with GCP</h3>
+<ul>
+<li>Take your docker container and docker-compose and easily convert it to a manifest. </li>
+<li>Do a local build test/scan of your container. </li>
+<li>Push out your artifact and deploy you image as a container in an environment. Deploy your image as a container in an environment.  Run your image from your container registry. Cloud Build, Cloud Run, and repos are [here].</li>
+</ul>
+<h3 id="public-dataset-omg">Public Dataset OMG!!!</h3>
+<ul>
+<li>Here there is metadata of all the public datasets Google makes available in the GCP platform. </li>
+<li>We'll examine BigQuery and slicing up this data. </li>
+</ul>
+<h3 id="using-gcp-ai-services">Using GCP AI Services</h3>
+<ul>
+<li>List of services and popular use-cases </li>
+<li>Page for Google Models in HF and S</li>
+</ul>
+<h3 id="low-code-solutions-and-gai">Low-Code Solutions and GAI</h3>
+<ul>
+<li>Here we'll examine AppSheet and low-code approaches towards appdev.</li>
+</ul>
+<h3 id="automate-your-builds-better">Automate your Builds Better</h3>
+<ul>
+<li>Recreate OnPremises Jenkins in GCP Cloud Build (Click-Through)</li>
+<li>Build in Cloud Build and Cloud Run with one easy-to-use workflow. </li>
+<li>Start <a href="https://cloud.google.com/build/docs/automate-builds">here</a>  </li>
+<li>Use your existing pipeline.json and Jenkinsfiles to inform Github Actions </li>
+<li>Setup [triggers] in Cloud Build like </li>
+</ul>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../resume/" class="btn btn-neutral float-left" title="Resume"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../terraform/" class="btn btn-neutral float-right" title="Terraform">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+      <p>Creative Possibilities Inc. 2024</p>
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../resume/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../terraform/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
