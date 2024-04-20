@@ -1,7 +1,8 @@
 site_name: Michael Colletti 
+site_url: https://github.com/michaelcolletti/me/docs
 site_author: Michael Colletti 
 copyright: Creative Possibilities Inc. 2024
-remote_name: gh-pages
+remote_name: 
 site_description: For code, learning resources, cool tools and projects
 repo_url: https://github.com/michaelcolletti/me.git
 repo_name: Code and Things
