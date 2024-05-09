@@ -20,13 +20,15 @@ Fediverse: https://hachyderm.io/@LegacyWhisperer
 * Passions: Kubernetes, Cloud infrastructure (AWS/GCP), Automation, Infrastructure as Code, Opensource/DevOps Toolchains, Toil elimination, Infra Modernization, Music
 * Previous Lives: Unix/Linux Sysadmin, DBA, Systems/Technical Architect, Monitoring and CRM/ERP SME, Solutions Architect, Ops specialist, Migration Architect
 * Current Vibe: LLMs, GenAI and Operationalizing AI
-* 
+____
+
 ## Latest Projects
+
+**Spring 2024 Wooot! and the world of tech is in a place that moves so fast that the groundbreaking announcements are almost on a daily hourly cadence! Attending all the Hackathons and learning what I can as fast as possible. The last time I remember things seeming this fast was 30+ years ago with in Perez's Installation period. Web commererce and Internet and distributed systems were are quite the rage but the pace was almost glacial compared to the accelerated advancements of 2024. Needless to say I am furiously learning all the things and documenting a great deal of my work in CPI Labs and pesonal git repos for projects. These include: project Sonteria, Lomaxes Everywhere and several Data projects (DocumentAI, BookMarkBuddy, MailSens)e that will hopefully see better progress with new toolings.**
+
 ___
 
-**Spring 2024 Wooot! and the world of tech is in a place that moves so fast that the groundbreaking announcements are almost on a daily hourly cadence! Attending all the Hackathons and learning what I can as fast as possible. The last time I remember things seeming this fast was 30+ years ago with in Perez's Installation period. Web commererce and Internet and distributed systems were are quite the rage but the pace was almost glacial compared to the accelerated advancements of 2024. Needless to say I am furiously learning all the things and documenting a great deal of my work in CPI Labs and pesonal git repos for projects. These include: project Sonteria, Lomaxes Everywhere and several Data projects (DocumentAI, BookMarkBuddy, MailSens)e that will hopefully see better progress with new toolings. 
-
-**In 2021 I dove into Cloud and Enterprise Architecture as a Moderization and Migration Architect at a large infrastructure company. I have developed methods of making discovery more effective and streamlining automation for Migration SMEs. My role has permitted me to explore the capabilities of some of the coolest new developments in Kubernetes, AWS, GCP and Azure services, Service Mesh, Moderization, and Migration Tooling. Also I have been able to help teams and orgs with their efforts to promote and leverage modern tool stacks, replacing their legacy infrastructures and practices with more optimal tooling and ways of working. Some of my role is implementing new technologies and discovering product capabilities and use-cases in the open-source and devops toolchains, part as a tool and technology evangelist helping with adoption, and part as a cross-team/geo consultant and advisor for executives and teams.**
+In 2021 I dove into Cloud and Enterprise Architecture as a Moderization and Migration Architect at a large infrastructure company. I have developed methods of making discovery more effective and streamlining automation for Migration SMEs. My role has permitted me to explore the capabilities of some of the coolest new developments in Kubernetes, AWS, GCP and Azure services, Service Mesh, Moderization, and Migration Tooling. Also I have been able to help teams and orgs with their efforts to promote and leverage modern tool stacks, replacing their legacy infrastructures and practices with more optimal tooling and ways of working. Some of my role is implementing new technologies and discovering product capabilities and use-cases in the open-source and devops toolchains, part as a tool and technology evangelist helping with adoption, and part as a cross-team/geo consultant and advisor for executives and teams.
 
 
 ___
