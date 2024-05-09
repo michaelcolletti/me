@@ -12,20 +12,15 @@ Fediverse: https://hachyderm.io/@LegacyWhisperer
 ```
 <a href="mailto:devnullid+githubcontact@gmail.com?subject=Service Query From Resume"><img src="https://img.shields.io/badge/gmail-%23DD0031.svg?&style=for-the-badge&logo=gmail&logoColor=white"/></a>
 
-
+* [Credly Profile](https://www.credly.com/users/michael-colletti.a61eb176)
+  
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="a528e159-4217-4873-9a27-c01ca955c5b2" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 
- <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="3add1452afc74d62a504c20c9967f734" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-
-<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="2d5a75b0-b7c8-4682-9149-c2fe1e3c312f" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-
-<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="3add1452afc74d62a504c20c9967f734" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="2536a912-4668-47da-ab49-d1daf0840276" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 
 <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="56e5f89c-0bc3-45f4-86c6-f0defdf0d2f1" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 
-<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="813d732e-7144-4078-9642-c775efd7bf07" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-
-<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="ded1e787-054c-4674-a4f1-c532b51049e3" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="750f9656-f620-41e1-9a1b-a27dcfab7ebd" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
 
 
 * Lifelong learner inspired by DevOps culture, principles, practices and tools
