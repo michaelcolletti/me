@@ -29,5 +29,6 @@ nav:
   - DevOps-GenAI Primer: genai-devops-primer.md
   - Backstage: backstage.md
   - Resume: resume.md
+  - Markdown Resume: pretty-resume.md
   - GCP: gcp.md
   - Terraform: terraform.md
