@@ -12,33 +12,23 @@ Fediverse: https://hachyderm.io/@LegacyWhisperer
 ```
 <a href="mailto:devnullid+githubcontact@gmail.com?subject=Service Query From Resume"><img src="https://img.shields.io/badge/gmail-%23DD0031.svg?&style=for-the-badge&logo=gmail&logoColor=white"/></a>
 
-
-<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="a528e159-4217-4873-9a27-c01ca955c5b2" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-
- <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="3add1452afc74d62a504c20c9967f734" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-
-<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="2d5a75b0-b7c8-4682-9149-c2fe1e3c312f" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-
-<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="3add1452afc74d62a504c20c9967f734" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-
-<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="56e5f89c-0bc3-45f4-86c6-f0defdf0d2f1" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-
-<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="813d732e-7144-4078-9642-c775efd7bf07" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-
-<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="ded1e787-054c-4674-a4f1-c532b51049e3" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-
+* [Credly Profile](https://www.credly.com/users/michael-colletti.a61eb176) | [GCP Certified](https://www.credly.com/badges/a528e159-4217-4873-9a27-c01ca955c5b2/public_url) | [AWS Developer](https://www.credly.com/badges/56e5f89c-0bc3-45f4-86c6-f0defdf0d2f1/public_url) | [Terraform Certified](https://www.credly.com/badges/2536a912-4668-47da-ab49-d1daf0840276/public_url)
 
 * Lifelong learner inspired by DevOps culture, principles, practices and tools
 * Solid communicator, cross-functional team collaborator & Individual Contributor
 * Opensource advocate, Ops and Infra-nerd, Architect and Monitoring savant
 * Passions: Kubernetes, Cloud infrastructure (AWS/GCP), Automation, Infrastructure as Code, Opensource/DevOps Toolchains, Toil elimination, Infra Modernization, Music
 * Previous Lives: Unix/Linux Sysadmin, DBA, Systems/Technical Architect, Monitoring and CRM/ERP SME, Solutions Architect, Ops specialist, Migration Architect
-* Certifications: AWS (Architect/Developer) and HashiCorp (Terraform), Azure Cerified 
+* Current Vibe: LLMs, GenAI and Operationalizing AI
+____
 
 ## Latest Projects
+
+**Spring 2024 Wooot! and the world of tech is in a place that moves so fast that the groundbreaking announcements are almost on a daily hourly cadence! Attending all the Hackathons and learning what I can as fast as possible. The last time I remember things seeming this fast was 30+ years ago with in Perez's Installation period. Web commererce and Internet and distributed systems were are quite the rage but the pace was almost glacial compared to the accelerated advancements of 2024. Needless to say I am furiously learning all the things and documenting a great deal of my work in CPI Labs and pesonal git repos for projects. These include: project Sonteria, Lomaxes Everywhere and several Data projects (DocumentAI, BookMarkBuddy, MailSens)e that will hopefully see better progress with new toolings.**
+
 ___
 
-**In 2021 I dove into Cloud and Enterprise Architecture as a Moderization and Migration Architect at a large infrastructure company. I have developed methods of making discovery more effective and streamlining automation for Migration SMEs. My role has permitted me to explore the capabilities of some of the coolest new developments in Kubernetes, AWS, GCP and Azure services, Service Mesh, Moderization, and Migration Tooling. Also I have been able to help teams and orgs with their efforts to promote and leverage modern tool stacks, replacing their legacy infrastructures and practices with more optimal tooling and ways of working. Some of my role is implementing new technologies and discovering product capabilities and use-cases in the open-source and devops toolchains, part as a tool and technology evangelist helping with adoption, and part as a cross-team/geo consultant and advisor for executives and teams.**
+In 2021 I dove into Cloud and Enterprise Architecture as a Moderization and Migration Architect at a large infrastructure company. I have developed methods of making discovery more effective and streamlining automation for Migration SMEs. My role has permitted me to explore the capabilities of some of the coolest new developments in Kubernetes, AWS, GCP and Azure services, Service Mesh, Moderization, and Migration Tooling. Also I have been able to help teams and orgs with their efforts to promote and leverage modern tool stacks, replacing their legacy infrastructures and practices with more optimal tooling and ways of working. Some of my role is implementing new technologies and discovering product capabilities and use-cases in the open-source and devops toolchains, part as a tool and technology evangelist helping with adoption, and part as a cross-team/geo consultant and advisor for executives and teams.
 
 
 ___
