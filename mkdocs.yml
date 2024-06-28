@@ -32,3 +32,4 @@ nav:
   - Markdown Resume: pretty-resume.md
   - GCP: gcp.md
   - Terraform: terraform.md
+  - k8s: k8s-history-architecture.md
