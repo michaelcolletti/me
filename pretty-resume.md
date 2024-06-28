@@ -1,5 +1,5 @@
 # Michael Colletti 
-## Automation Architect | DevOps Enthusiast | Platform Engineer
+## Automation Architect | DevOps & Platform Engineer
 
 > Michael is a seasoned cloud architect with a passion for open-source technologies and a knack for simplifying complex systems. With a proven track record of modernizing infrastructures and driving DevOps adoption, he thrives on turning challenges into opportunities for innovation.
 
@@ -9,12 +9,12 @@
 
 - **Cloud:** AWS, GCP, Azure
 - **Containers:** Kubernetes (EKS/GKE/AKS/OCP), Docker
-- **IaC:** Terraform, Ansible, CloudFormation
+- **IaC:** Terraform, Ansible, CloudFormation,ARM/Bicep 
 - **CI/CD:** Git Actions, Jenkins
 - **Service Mesh:** Istio, Cilium, Anthos, Linkerd, Consul
 - **Observability:** Prometheus, Grafana, Jaeger
 - **Languages:** Bash, Python, YAML, JSON
-- **Databases:** RDS, MariaDB, MySQL, MongoDB, DynamoDB
+- **Databases:** RDS, MariaDB, MongoDB, DynamoDB
 - **OS:** Linux (Various flavors)
 - **Web:** Apache, Nginx, HAProxy, ALB/ELB, WASM
 - **GenAI:** Python, Jupyter, Colab, LLMOps, VectorDBs
@@ -72,4 +72,4 @@ State University of New York College at Purchase
 ### 📫 Get in Touch
 
 - Email: creative@cpossibilities.com
-- GitHub: [Portfolio](https://github.com/yourusername)
+- GitHub: [Portfolio](https://github.com/michaelcolletti)
