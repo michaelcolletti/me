@@ -1,11 +1,12 @@
 site_name: Michael Colletti 
-site_url: https://github.com/michaelcolletti/me
+site_url: https://github.com/michaelcolletti/me.git
 site_author: Michael Colletti 
 copyright: Creative Possibilities Inc. 2024
 remote_name: 
 site_description: For code, learning resources, cool tools and projects
-repo_url: https://github.com/michaelcolletti/me.git
+repo_url: https://github.com/michaelcolletti/me/
 repo_name: Code and Things
+edit_uri: 'blob/main/docs/'
 
 theme:
     name: readthedocs
@@ -24,6 +25,7 @@ theme:
     include_sidebar: true
 nav:
   - Home: index.md
+  - Upwork: 'https://www.upwork.com/freelancers/~01543c426937f19998?mp_source=share'
   - Bass: bass.md
   - DevOps: devops.md
   - DevOps-GenAI Primer: genai-devops-primer.md
