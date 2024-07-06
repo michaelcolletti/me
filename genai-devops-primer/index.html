@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="author" content="Michael Colletti" /><link rel="canonical" href="https://github.com/michaelcolletti/me.git/genai-devops-primer/" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>DevOps-GenAI Primer - Michael Colletti</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "DevOps-GenAI Primer";
+        var mkdocs_page_input_path = "genai-devops-primer.md";
+        var mkdocs_page_url = "/michaelcolletti/me.git/genai-devops-primer/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/yaml.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/rust.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/json.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/python.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> Michael Colletti
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="https://www.upwork.com/freelancers/~01543c426937f19998?mp_source=share">Upwork</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../bass/">Bass</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../devops/">DevOps</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="#">DevOps-GenAI Primer</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#followup-mongodb-hackathons-for-vectorizing-data">Followup MongoDB Hackathons for Vectorizing Data</a>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../backstage/">Backstage</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../resume/">Resume</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../pretty-resume/">Markdown Resume</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../gcp/">GCP</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../terraform/">Terraform</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../k8s-history-architecture/">k8s research Part 1</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../k8s-devops/">k8s research Part 2</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Michael Colletti</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">DevOps-GenAI Primer</li>
+    <li class="wy-breadcrumbs-aside">
+          <a href="https://github.com/michaelcolletti/me/blob/main/docs/genai-devops-primer.md">Edit on Code and Things</a>
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h2 id="genai-devops-primer-overview">GenAI-DevOps-Primer Overview</h2>
+<ul>
+<li>The inspiration and much of the material for the below GenAI resources comes from none other than <a href="https://www.jedi.be/">Patrick Debois</a>, the Godfather and OG of DevOps cultural movement and DevOpsDays. The first <a href="https://www.mongodb.com/community/forums/t/new-york-devops-for-genai-hackathon-nyc/260804">NYC GenAI DevOps Hackathon</a> was held on January 24th 2024. Like Ghent in 2009, it was a transitional moment in DevOps: dev,sec,and ops have a cool cousin: data science. Through the last 15 years there have been transformational waves in devops like DevSecOps (security invited to the party) and around 2013 global acceptance then 2016 the global hegemony of devops practices. The addition of LLMs to integrations and new toolings feels very right. The dev/sec/ops frame Patrick provides makes the material even more accessible and understandable. Patrick, as a learner, has a special way of doing this. </li>
+</ul>
+<hr />
+<ul>
+<li><a href="https://www.mongodb.com/">MongoDB</a> and <a href="https://aws.amazon.com/">Amazon AWS</a> sponsored the event. Stacks in the hackathon included using AWS Sagemaker, Kendra, Amazon Q and S3 to create a sample app. MongoDB Atlas and vector databases were focussed and using MongoDB was a highlight as easy-to-deploy. See [MongoDB setup sheet] (all free-tier).</li>
+<li>Takeaway: Working with LLMs and tool integrations with the sensibilities of DevSecOps is the default. Solutions being built by startups have DevSecOps (and now GenAI) sensibilities baked-in. The emergence of models as utility, and the prodigious growth of  and how to create value from unharnessed <em>unstructured data</em> for companies holds great promise.</li>
+</ul>
+<hr />
+<ul>
+<li>Repos for the <a href="https://github.com/OperationalizingAI/Hackathon-1-24-24">January Hackathon</a> </li>
+<li><a href="https://github.com/OperationalizingAI/Hackathon-1-24-24/blob/main/NYC%20GenAI%20Hackathon%20Preparation%20Sheet.pdf">Follow along</a> and complete the steps for the Hackathon.</li>
+<li>Enjoy the <a href="https://github.com/OperationalizingAI/Hackathon-1-24-24/blob/main/Hackathon%2001-24-24%20Projects%20and%20Readouts.pdf">readout</a> from the day's session</li>
+<li>Base repo for <a href="https://github.com/operationalizingai">OperationalizingAI</a> </li>
+<li>Be sure to checkout the August 2023 <a href="https://github.com/OperationalizingAI/GAIHackathon0823">GenAI workshop</a>.</li>
+</ul>
+<hr />
+<h3 id="followup-mongodb-hackathons-for-vectorizing-data">Followup MongoDB Hackathons for Vectorizing Data</h3>
+<ul>
+<li>April 8th resources and links </li>
+</ul>
+<h2 id="patricks-primers">Patrick's Primers</h2>
+<ul>
+<li><a href="https://www.youtube.com/playlist?list=PLXIQpjhVJyXq_WRz-JMDLJ6ufTGVLcraw">AI and Prompt Engineering Playlists</a></li>
+<li><a href="https://www.youtube.com/watch?v=7Qr1f4f8u64&amp;list=PLXIQpjhVJyXq_WRz-JMDLJ6ufTGVLcraw&amp;index=1">Operationalizing Generative AI: From ChatGPT to Production</a></li>
+<li><a href="https://www.youtube.com/watch?v=ivXV_jDqOKk&amp;t=2s">Video: Dev, Sec and Ops Meet Langchain</a></li>
+<li>[GenAI Tutorials for Dev, Sec, and Ops]GitHub repos of <a href="https://github.com/jedi4ever/learning-llms-and-genai-for-dev-sec-ops/tree/main/lessons">Lessons</a> for <a href="https://github.com/jedi4ever/learning-llms-and-genai-for-dev-sec-ops/tree/main/lessons/developer">Dev</a>, <a href="https://github.com/jedi4ever/learning-llms-and-genai-for-dev-sec-ops/tree/main/lessons/security">Sec</a> and <a href="https://github.com/jedi4ever/learning-llms-and-genai-for-dev-sec-ops/tree/main/lessons/operations">Ops</a></li>
+</ul>
+<h2 id="genai-talks">GenAI Talks</h2>
+<ul>
+<li>DOES23: <a href="https://youtu.be/EDDa5bu480Q">AI, Make It So</a></li>
+<li><a href="https://youtu.be/7Qr1f4f8u64?si=ju08YvRp6d9IJ8ud">From ChapGPT to Production</a></li>
+</ul>
+<h2 id="other-talks">Other Talks</h2>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=Sh6Xv8lkIMY">A Devops walks into the Metaverse and Learns</a></li>
+<li><a href="https://www.youtube.com/watch?v=RJtgt2SqOK0">Thirteen Years of DevOps</a></li>
+</ul>
+<h2 id="langchain">LangChain</h2>
+<ul>
+<li><a href="https://towardsdatascience.com/getting-started-with-langchain-a-beginners-guide-to-building-llm-powered-applications-95fc8898732c">Getting started building</a></li>
+<li>Examples of how to create a private LLM <a href="https://github.com/imartinez/privateGPT">1</a><a href="https://github.com/singlestore-labs/private-llm-aws">on AWS</a> </li>
+</ul>
+<h2 id="prompt-engineering">Prompt Engineering</h2>
+<h2 id="-reference-guide">- <a href="https://www.promptingguide.ai/">Reference Guide</a></h2>
+<ul>
+<li><a href="https://github.com/danielmiessler/fabric">Fabric</a> Prompting with templates. The author, <a href="https://danielmiessler.com/">Daniel</a> has good content and is worth a follow.</li>
+</ul>
+<h2 id="books-for-ai-history-and-more">Books for AI History and More</h2>
+<ul>
+<li>
+<p>In researching the domain(s), here are some suggested reading that kept coming up that I'd like to dig into. </p>
+</li>
+<li>
+<p>Fei-Fei Li: The Worlds I See (highly recommend)</p>
+</li>
+<li>John Willis: (Title TBD History of Artificial Intelligence)</li>
+<li>Nick Bostrom: <a href="https://www.amazon.com/Superintelligence-Dangers-Strategies-Nick-Bostrom/dp/0198739834/">Superintelligence: Paths Dangers Strategies</a> </li>
+<li>
+<p>Max Tegmark: <a href="https://www.amazon.com/Life-3-0-Being-Artificial-Intelligence/dp/1101970316">Life 3.0: Being human in the Age of Artificial Intelligence</a></p>
+</li>
+<li>
+<p>Sulyman Bhaskar the Coming Wave</p>
+</li>
+<li>Chamarrow: I Human </li>
+<li>Russell Norvig: Artificial Intelligence: A Modern Approach </li>
+</ul>
+<h2 id="other-great-follows-in-the-genai-and-llms-space">Other Great Follows in the GenAI and LLMs Space</h2>
+<ul>
+<li>Mark Hinkle, Ruevan Cohen, Joseph Enoch, Bill Bensing, </li>
+<li>HuggingFace, </li>
+</ul>
+<h2 id="significant-papers-a-long-list-coming-soon">Significant Papers (a Long list coming soon)</h2>
+<ul>
+<li><a href="https://dl.acm.org/doi/10.1145/3442188.3445922">Timnit Gebru </a> was terminated from Google after the publication of this paper. This was ~2021 before LLMs were as common knowledge. </li>
+</ul>
+<h2 id="optional-helpful-tracks-to-pursue">Optional Helpful Tracks to Pursue</h2>
+<ul>
+<li>
+<p>Provide Python Primer. Covering basics like datatypes, structures, loops, conditionals. [Links] Feature using Jupyter notebooks, local and cloud based. <a href="https://www.codecademy.com/article/how-to-use-jupyter-notebooks">How to launch and use Jupyter Notebooks</a></p>
+</li>
+<li>
+<p>Git and version control primers and quick how-tos</p>
+</li>
+<li>Using APIs, step through request/response e.g. get, post, demo using Postman </li>
+<li>
+<p>Theoretical fundamental AI learnings and subsets. ML(subset: deep learning supervised/unsupervised), neural networks, NLP, reinforcement learning, prompt engineering, computer vision. Neural networks:review (forward and back propagation, gradient descent algorithm, weighting ) </p>
+</li>
+<li>
+<p>The difference between neural network architectures and more recent transformer architectures (2017).  </p>
+</li>
+<li>Get an idea of the models and how they are trained</li>
+<li>Text Embeddings and vector databases, why RAGs are so awesome</li>
+<li>Advanced prompt engineering methods</li>
+<li>AutoGen (MS) agent based, Advanced Document QA/multi-modal </li>
+</ul>
+<h2 id="genai-and-deep-learning-course-material">GenAI and Deep Learning Course Material</h2>
+<ul>
+<li><a href="https://learn.deeplearning.ai/">DeepLearningAI</a> Excellent courses!!!</li>
+</ul>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../devops/" class="btn btn-neutral float-left" title="DevOps"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../backstage/" class="btn btn-neutral float-right" title="Backstage">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+      <p>Creative Possibilities Inc. 2024</p>
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+        <span>
+          <a href="https://github.com/michaelcolletti/me/" class="fa fa-code-fork" style="color: #fcfcfc"> Code and Things</a>
+        </span>
+    
+    
+      <span><a href="../devops/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../backstage/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
