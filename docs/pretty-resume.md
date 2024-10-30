@@ -10,14 +10,13 @@
 - **Cloud:** AWS, GCP, Azure
 - **Containers:** Kubernetes (EKS/GKE/AKS/OCP), Docker
 - **IaC:** Terraform, Ansible, CloudFormation,ARM/Bicep 
-- **CI/CD:** Git Actions, Jenkins
-- **Service Mesh:** Istio, Cilium, Anthos, Linkerd, Consul
-- **Observability:** Prometheus, Grafana, Jaeger
-- **Languages:** Bash, Python, YAML, JSON
-- **Databases:** RDS, MariaDB, MongoDB, DynamoDB
-- **OS:** Linux (Various flavors)
+- **Git & CI/CD:** CoPilot, Git Actions, Jenkins
+- **Observability:** Prometheus, Grafana, Jaeger, Sysdig
+- **Scripting and Languages:** Bash, PowerShell, Python, Rust (learning)
+- **RBMS and NoSQl Databases:** RDS, MariaDB, MongoDB, SQLlite 
+- **OS:** Linux (Most flavors), Legacy Unix platforms
 - **Web:** Apache, Nginx, HAProxy, ALB/ELB, WASM
-- **GenAI:** Python, Jupyter, Colab, LLMOps, VectorDBs
+- **GenAI:** Jupyter, Colab, LLMOps, VectorDBs
 
 ### 🏆 Certifications
 
