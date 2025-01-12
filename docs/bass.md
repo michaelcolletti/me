@@ -7,13 +7,15 @@
   
 ## Acts I've played with
 
-* Tillson Woodshed 
+* Tillson Jazz Ensemble 
 * OCS/Shred Thump and Flow/Avantdelic (RIP Shredly)
-* Cloudburst 
+* [Cloudburst](https://www.youtube.com/watch?v=cHIGyNk7jac) and [more](https://www.facebook.com/cloudbursttrio/videos)
+* Lefty
+* [Sabor](https://vimeopro.com/user1696629/sabor) & [Pablo Shine Latin Jazz Band](https://www.pabloshineband.com/)
 * Blue Food (RIP PeeWee and Junior)
-* Mambo KiKongo (multiple formations)
-* Futu Futu (Joakim Lartey) 
-* Future350 Nu Bossa
+* [Mambo KiKongo](https://wavefarm.org/wf/archive/x43fqk) (multiple formations)
+* [Futu Futu](https://www.youtube.com/watch?v=BHeAYUegavc) (Joakim Lartey) 
+* Future350 Nu Bossa (Stephen Johnson)
 * Stone Logic | Sound City (Charlie Scott)
 * Lucky Mission 
 * The Bob Cats 
