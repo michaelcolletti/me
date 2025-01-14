@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="author" content="Michael Colletti" /><link rel="canonical" href="https://github.com/michaelcolletti/me.git/devops/" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>DevOps - Michael Colletti</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "DevOps";
+        var mkdocs_page_input_path = "devops.md";
+        var mkdocs_page_url = "/michaelcolletti/me.git/devops/";
+      </script>
+    
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/yaml.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/rust.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/json.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/python.min.js"></script>
+      <script>hljs.highlightAll();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> Michael Colletti
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="" href="https://www.upwork.com/freelancers/~01543c426937f19998?mp_source=share">Upwork</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../bass/">Bass</a>
+                </li>
+              </ul>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="#">DevOps</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#devops-resources">DevOps Resources</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#background">Background</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#meta-resources-talks-and-presentations">Meta Resources: Talks and Presentations</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#calms">CA(L)MS</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#the-three-ways-of-devops">The Three Ways of DevOps</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#sre">SRE</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#configuration-management">Configuration Management</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#config-management-prime-movers">Config Management Prime-Movers</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#kim-and-itrevolution">Kim and ITRevolution</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#adrian-cockroft">Adrian Cockroft</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#podcasts">Podcasts:</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#dora-dr-foresgren-jez-humble-and-accelerate">DORA, Dr. Foresgren, Jez Humble and Accelerate</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#the-five-key-dora-metrics">The Five Key DORA Metrics</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#state-of-devops-report">State of DevOps Report</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#devsecops">DevSecOps</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#strategy-and-wardley">Strategy and Wardley</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#policy-as-code">Policy as Code</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#dr-edwards-deming">Dr Edwards Deming</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#toyota-production-system">Toyota Production System</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#goldratt">Goldratt</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#the-five-ideals">The Five Ideals</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#seminal-videos">Seminal Videos</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#ben-rockwood-10-deploys-a-day">Ben Rockwood: 10 Deploys a Day</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#10-deploys-a-day">10 Deploys A Day</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#andrew-clay-shafer">Andrew Clay Shafer</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#alice-goldfuss">Alice GoldFuss</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#kelly-shortridge-and-dr-nicole-forsgren-controlled-chaos-the-inevitable-marriage-of-devops-security">Kelly Shortridge and Dr. Nicole Forsgren Controlled Chaos: The Inevitable Marriage of DevOps &amp; Security</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#seminal-texts">Seminal Texts</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#the-lean-startup-steven-blanks-book-the-four-steps-to-ephiphany-heavily-influenced-eric-reis-as-a-student-at-stanford">The Lean Startup Steven Blank's book The Four Steps to Ephiphany heavily influenced Eric Reis as a student at Stanford.</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#currated-playlists-from-oreilly">Currated Playlists from O’Reilly</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#learning-as-practice">Learning as Practice:</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#managers-path-and-leadership">Manager’s Path and Leadership</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../genai-devops-primer/">DevOps-GenAI Primer</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../backstage/">Backstage</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../resume/">Resume</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../pretty-resume/">Markdown Resume</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../gcp/">GCP</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../terraform/">Terraform</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../k8s-history-architecture/">k8s research Part 1</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../k8s-devops/">k8s research Part 2</a>
+                </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">Michael Colletti</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
+      <li class="breadcrumb-item active">DevOps</li>
+    <li class="wy-breadcrumbs-aside">
+          <a href="https://github.com/michaelcolletti/me/blob/main/docs/devops.md">Edit on Code and Things</a>
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="big-honking-devops-page-of-love-devops-notes-and-resources">Big Honking DevOps Page of Love: DevOps Notes and Resources</h1>
+<h4 id="devops-resources">DevOps Resources</h4>
+<ul>
+<li><a href="https://devopsdays.org">DevOpsDays</a>: Conferences arguably were the structures that germanated the movement's accelerated adoption and cloud. The conferences help ignite the DevOps cultural movement/moment.</li>
+</ul>
+<h4 id="background">Background</h4>
+<ul>
+<li>Germinated as conversations around Agile System Admin practices: @littleidea, @patrickdebois</li>
+<li>MeetUp organized by Patrick Debois in Ghent, Belgium October 2009 <a href="https://devopsdays.org/events/2019-ghent/welcome/"> Decade Anniversary</a></li>
+</ul>
+<h4 id="meta-resources-talks-and-presentations">Meta Resources: Talks and Presentations</h4>
+<ul>
+<li><a href="https://gist.github.com/botchagalupe/fa9f8f83c34b6b2dadf5fd54b38a4611">John Willis aka @Botchagalupe</a> the meta-gist motherlode of DevOps Goodness</li>
+<li>The tremendous influence of Dr. Edwards Deming. Relations to <a href="https://itrevolution.com/deming-to-devops-part-1/">DevOps</a> See <a href="https://www.profound-deming.com/">Profound site Podcast</a> the SoPK (System of Profound Knowledge)</li>
+</ul>
+<h4 id="calms">CA(L)MS</h4>
+<ul>
+<li>
+<p>CAMS: <em>C</em>ulture, <em>A</em>utomation, <em>M</em>easurement, <em>S</em>haring _ attribution John Willis/Damon Edwards on <a href="https://devopscafe.libsyn.com/">DevOps Cafe podcast</a> <em>The L for CA(L)Ms came after the suggestion of Lean by Jez Humble (author of Lean Enterprise/DevOps Handbook) and Daemon Edwards (RunDeck).</em></p>
+</li>
+<li>
+<p>Culture: <a href="https://itrevolution.com/devops-culture-part-1/">Part1</a> <a href="https://itrevolution.com/devops-culture-part-2/">Part 2</a></p>
+</li>
+<li>Automation</li>
+<li>Measurement</li>
+<li>
+<p>Sharing</p>
+</li>
+<li>
+<p><a href="https://sergiocaredda.eu/inspiration/asides/netflix-culture-deck/">Netflix Culture Deck</a> and <a href="https://www.youtube.com/watch?v=80bymIwYrlI">Patty McCord</a> <a href="https://www.youtube.com/watch?v=uvG0aCbuG60">TED TALK</a></p>
+</li>
+</ul>
+<h4 id="the-three-ways-of-devops">The Three Ways of DevOps</h4>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=nUOXDEvplRc">Gene Kim's explaination</a></li>
+<li>First Way (Flow): Work always flows in one direction – downstream Dev  Ops ala ‘wall of confusion’ Shafer/Thompson</li>
+<li>Second Way (Feedback): Create, shorten and amplify feedback loops (right to left).</li>
+<li>
+<p>Third Way (Continuous experimentation): Creating a culture that fosters two things: continual experimentation, taking risks and learning from failure; and understanding that repetition and practice is the prerequisite to mastery.</p>
+</li>
+<li>
+<p>How do these apply to every project/product worked on?</p>
+</li>
+<li><a href="https://itrevolution.com/">IT Revolution</a>, as a resource, is just like O'Reilly was for me learning in the early pre-DevOps days. O'Reilly was a go-to then (and now), similarly ITRev offers the texts that will solidify understanding of the challenges beyond technical implementation. The DOES/Enterprise Technology Summits provide that same ecosystem for ideas/ideals to grow and collective ideology around technology. Without these supporting structures/systems would the hegemony. </li>
+</ul>
+<h4 id="sre">SRE</h4>
+<ul>
+<li>What is the role of Site Reliability Engineer? <a href="https://sre.google/sre-book/table-of-contents/">SRE Book</a> and <a href="https://sre.google/workbook/table-of-contents/">SRE Workbook</a>. <a href="https://sre.google/workbook/how-sre-relates/">How SRE relates to DevOps</a></li>
+</ul>
+<h4 id="configuration-management">Configuration Management</h4>
+<ul>
+<li>Mark Burgess CFEngine, Promise Theory and how the field of physics informs IT. Burgess pretty much invented modern config management space. By extension heavily influenced Adam Jacob @OPsCode/Chef
+<em>The first time I heard Adam Jacob speak at Velocity 2011, I was struck by how open and generative giving attribution to a hero and influence can be. Mark Burgess, though perhaps less known has had a great influence on the area.</em></li>
+</ul>
+<h4 id="config-management-prime-movers">Config Management Prime-Movers</h4>
+<ul>
+<li>Luke Kaines (Puppet)</li>
+<li>Adam Jacob (Chef)</li>
+<li>Michael DeHann (Ansible)</li>
+<li>Mitchell Hashimoto and Armon Dadgar (Terraform)</li>
+<li>Jeff Snover (PowerShell)</li>
+</ul>
+<h4 id="kim-and-itrevolution">Kim and ITRevolution</h4>
+<ul>
+<li>Gene Kim (Visible Ops, ITRevolution, DOES) @realgenekim <a href="https://www.slideshare.net/realgenekim/when-it-fails-the-business-fails">When IT Fails</a></li>
+</ul>
+<h4 id="adrian-cockroft">Adrian Cockroft</h4>
+<ul>
+<li>One of my favorite influences in the movement (Sun/Netflix/AWS) Investigate <em>Chaos Engineering</em> and more <a href="https://www.infoq.com/presentations/devsusops/">DevSusOps</a> and the Sustainability tier added to the Well Architected Framework.</li>
+<li>Check his <a href="https://www.youtube.com/results?search_query=Adrian+Cockroft+">talks</a> and <a href="https://www.youtube.com/watch?v=lLqASI11Z-M">Chaos Eingineering</a> and <a href="http://a.co/79CGMfB">book recommendations</a>.</li>
+</ul>
+<h4 id="podcasts">Podcasts:</h4>
+<ul>
+<li>Cloud Cafe</li>
+<li>DevOps Cafe</li>
+<li>Arrested Devops</li>
+<li>The Ship Show</li>
+<li>Software Defined Talk</li>
+</ul>
+<h4 id="dora-dr-foresgren-jez-humble-and-accelerate">DORA, Dr. Foresgren, Jez Humble and Accelerate</h4>
+<ul>
+<li>DORA](https://www.devops-research.com/research.html) DevOps Data and Metrics singularity <a href="https://nicolefv.com/">Dr. Nicole Forsgren</a> @nicolefv</li>
+<li><a href="https://learning.oreilly.com/library/view/accelerate/9781457191435/">Accelerate</a></li>
+<li>Jez Humble Continuous Integration/Continuous Delivery (also DORA and Accelerate) <a href="https://learning.oreilly.com/library/view/continuous-delivery-reliable/9780321670250/">Humble/Farley</a></li>
+</ul>
+<p>_Extremely influencial as a measurement. Currently a measure for an orgs capabilities. There are now 5 current metrics.</p>
+<h4 id="the-five-key-dora-metrics">The Five Key DORA Metrics</h4>
+<ul>
+<li>Deployment Frequency (the frequency at which new releases go to production)</li>
+<li>Lead Time For Changes (the time until a commit goes to production)</li>
+<li>Mean Time to Restore (the time it takes to resolve a service impairment in production)</li>
+<li>Change Failure Rate (the ratio of deployments to production that leads to errors and successful deployments).</li>
+<li><em>Operational Excellence / Resilience</em> (added 2019)</li>
+</ul>
+<h4 id="state-of-devops-report">State of DevOps Report</h4>
+<ul>
+<li><a href="https://cloud.google.com/blog/products/devops-sre/announcing-dora-2021-accelerate-state-of-devops-report">For 2021</a></li>
+</ul>
+<h4 id="devsecops">DevSecOps</h4>
+<ul>
+<li>James Wickett <a href="https://www.dryrun.security/">DryRun Security</a></li>
+<li>Rudgged DevOps Justin Cormack <a href="https://iamthecavalry.org/">IAmTheCalvary</a></li>
+</ul>
+<p><em>In the so-called 'DevOps transformation', InfoSec wasn't invited to the party. DevSecOps seeks to fix that and shift security left and embrace more modern patterns of GRC (governance, risk and complience).</em></p>
+<h4 id="strategy-and-wardley">Strategy and Wardley</h4>
+<ul>
+<li>Simon Wardley: <a href="https://learnwardleymapping.com/">Wardley Mapping</a> Wardley pioneered the use of mapping as a strategic tool. It can be used for personal goals and strategy and organizational transformation.  It's like he can tell the future and often does. Worth a follow @swardley and <a href="https://medium.com/wardleymaps/on-being-lost-2ef5f05eb1ec">Medium</a></li>
+</ul>
+<h4 id="policy-as-code">Policy as Code</h4>
+<p>Emergent with automation and builds pipelines is the notion of declaritive code that enforces policies. While not new these methods of</p>
+<ul>
+<li>Twitter handles for some cool folks in DevOps and SRE <a href="../TechTwitterDevops/">here</a></li>
+</ul>
+<h4 id="dr-edwards-deming">Dr Edwards Deming</h4>
+<ul>
+<li>The tremendous influence of Dr. Edwards Deming. See <a href="https://www.profound-deming.com/">Profound site Podcast</a> the SoPK</li>
+</ul>
+<h4 id="toyota-production-system">Toyota Production System</h4>
+<ul>
+<li>Toyota Production System, Taiichi Ohno, Lean Manufacturing</li>
+</ul>
+<h4 id="goldratt">Goldratt</h4>
+<ul>
+<li>Goldratt the Theory of Constraints (TOC). Also see <em>The Goal</em> and <em>The Phoenix Project</em> (Gene Kim)</li>
+</ul>
+<h4 id="the-five-ideals">The Five Ideals</h4>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=xyP3c8VWplM">Gene Kim's explaination</a></li>
+<li>Locality and Simplicity (Sprouter @ Etsy) Synchronize and coordonate team's work. The primacy of Architecture on productivity.</li>
+<li>Focus Flow and Joy</li>
+<li>Improvement of Daily Work</li>
+<li>Psycological Safety</li>
+<li>Customer Focus</li>
+</ul>
+<h3 id="seminal-videos">Seminal Videos</h3>
+<p>These are just some of the videos I can recall creating an aha moment. There are many more in DevOps Enterprise Summit and YouTube.</p>
+<h4 id="ben-rockwood-10-deploys-a-day">Ben Rockwood: 10 Deploys a Day</h4>
+<p>This was one of the earliest videos I can remember about transformation as intention and practice <a href="https://www.usenix.org/blog/devops-transformation">The DevOps Transformation</a></p>
+<h4 id="10-deploys-a-day">10 Deploys A Day</h4>
+<ul>
+<li>John Allspaw and Paul Hammond at Flickr <a href="https://www.youtube.com/watch?v=LdOe18KhtT4">10+ deploys a day </a>(Velocity 2009)</li>
+</ul>
+<h4 id="andrew-clay-shafer">Andrew Clay Shafer</h4>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=NAazenCRQSY">There is No Talent Shortage</a></li>
+</ul>
+<h4 id="alice-goldfuss">Alice GoldFuss</h4>
+<p><a href="https://www.youtube.com/watch?v=q1BnNRId0R4">MN DoD 2019 The Containeir Operator Manual</a></p>
+<h4 id="kelly-shortridge-and-dr-nicole-forsgren-controlled-chaos-the-inevitable-marriage-of-devops-security"><a href="https://www.youtube.com/watch?v=LGaD9p1rQ2s">Kelly Shortridge and Dr. Nicole Forsgren</a> <em>Controlled Chaos: The Inevitable Marriage of DevOps &amp; Security</em></h4>
+<h3 id="seminal-texts">Seminal Texts</h3>
+<h3 id="the-lean-startup-steven-blanks-book-the-four-steps-to-ephiphany-heavily-influenced-eric-reis-as-a-student-at-stanford"><a href="http://theleanstartup.com/">The Lean Startup</a> Steven Blank's book <a href="https://web.stanford.edu/group/e145/cgi-bin/winter/drupal/upload/handouts/Four_Steps.pdf">The Four Steps to Ephiphany</a> heavily influenced Eric Reis as a student at Stanford.</h3>
+<h3 id="currated-playlists-from-oreilly">Currated Playlists from O’Reilly</h3>
+<p><a href="https://learning.oreilly.com/playlists/1dfa5ee4-f725-49e1-a9c1-e3e73dd75b1c">Cloud Architecture:</a>
+<a href="https://learning.oreilly.com/playlists/b0904674-9ed7-4223-b3da-fd343147e0b2">DevOps Primer:</a></p>
+<h5 id="learning-as-practice">Learning as Practice:</h5>
+<p><a href="https://learning.oreilly.com/playlists/d63150b1-6a7e-41c7-80fc-cbe8bf7901ef">Unlearn*:</a></p>
+<h5 id="managers-path-and-leadership">Manager’s Path and Leadership</h5>
+<p><a href="https://learning.oreilly.com/playlists/786e14ed-9605-472e-baa1-5462ac5561f5">Manager's Path</a>
+<em>Fournier’s book is in Audio format</em></p>
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../bass/" class="btn btn-neutral float-left" title="Bass"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../genai-devops-primer/" class="btn btn-neutral float-right" title="DevOps-GenAI Primer">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+      <p>Creative Possibilities Inc. 2024</p>
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+        <span>
+          <a href="https://github.com/michaelcolletti/me/" class="fa fa-code-fork" style="color: #fcfcfc"> Code and Things</a>
+        </span>
+    
+    
+      <span><a href="../bass/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+      <span><a href="../genai-devops-primer/" style="color: #fcfcfc">Next &raquo;</a></span>
+    
+  </span>
+</div>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "..";</script>
+    <script src="../js/theme_extra.js"></script>
+    <script src="../js/theme.js"></script>
+      <script src="../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
