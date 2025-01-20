@@ -49,23 +49,10 @@ ____
 - 
 - [Fabric](https://github.com/danielmiessler/fabric) Prompting with templates. The author, [Daniel](https://danielmiessler.com/) has good content and is worth a follow.
 
-## Books for AI History and More
-
-- In researching the domain(s), here are some suggested reading that kept coming up that I'd like to dig into. 
-
--  Fei-Fei Li: The Worlds I See (highly recommend)
--  John Willis: (Title TBD History of Artificial Intelligence)
-- Nick Bostrom: [Superintelligence: Paths Dangers Strategies](https://www.amazon.com/Superintelligence-Dangers-Strategies-Nick-Bostrom/dp/0198739834/) 
-- Max Tegmark: [Life 3.0: Being human in the Age of Artificial Intelligence](https://www.amazon.com/Life-3-0-Being-Artificial-Intelligence/dp/1101970316)
-
-- Sulyman Bhaskar the Coming Wave
-- Chamarrow: I Human 
-- Russell Norvig: Artificial Intelligence: A Modern Approach 
-
 
 ## Other Great Follows in the GenAI and LLMs Space
 
-- Mark Hinkle, Ruevan Cohen, Joseph Enoch, Bill Bensing, 
+- Mark Hinkle, Ruevan Cohen, Joseph Enochs, Bill Bensing, 
 - HuggingFace, 
 
 ## Significant Papers (a Long list coming soon)
