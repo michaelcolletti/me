@@ -32,10 +32,10 @@
 - Third Way (Continuous experimentation): Creating a culture that fosters two things: continual experimentation, taking risks and learning from failure; and understanding that repetition and practice is the prerequisite to mastery.
  
 - How do these apply to every project/product worked on?
-- [IT Revolution](https://itrevolution.com/), as a resource, is just like O'Reilly was for me learning in the early pre-DevOps days. O'Reilly was a go-to then (and now), similarly ITRev offers the texts that will solidify understanding of the challenges beyond technical implementation. The DOES/Enterprise Technology Summits provide that same ecosystem for ideas/ideals to grow and collective ideology around technology. Without these supporting structures/systems would the hegemony. 
+- [IT Revolution](https://itrevolution.com/), as a resource, is just like O'Reilly was for me learning in the early pre-DevOps days. O'Reilly was a go-to then (and now), similarly ITRev offers the texts that will solidify understanding of the challenges beyond technical implementation. The DOES/Enterprise Technology Summits provide that same social ecosystem for ideas/ideals to grow and collective ideology around technology. Without these supporting structures/systems would the hegemony of DevOps as an idea de as complete?
  
 #### SRE
-* What is the role of Site Reliability Engineer? [SRE Book](https://sre.google/sre-book/table-of-contents/) and [SRE Workbook](https://sre.google/workbook/table-of-contents/). [How SRE relates to DevOps](https://sre.google/workbook/how-sre-relates/)
+* What is the role of Site Reliability Engineer? [SRE Book](https://sre.google/sre-book/table-of-contents/) and [SRE Workbook](https://sre.google/workbook/table-of-contents/). [How SRE relates to DevOps](https://sre.google/workbook/how-sre-relates/). In short, SRE is the Google specific implementatioon of DevOps concepts and practices with their specific purpose built toolchains. There's so much in this area to cover but sufficxe it to say, Google created SRE and any implementation of it will never have the challanges or constraints at their scale. 
   
 #### Configuration Management
 * Mark Burgess CFEngine, Promise Theory and how the field of physics informs IT. Burgess pretty much invented modern config management space. By extension heavily influenced Adam Jacob @OPsCode/Chef
