@@ -2,7 +2,7 @@
 
 ```
 Michael G. Colletti 
-Cloud, DevOps, Platforms, Containers LLMOps  
+Cloud, DevOps, Platforms, Containers 
 resume@cpossibilities.com
 Vox: (845) 675-0184
 Git: https://github.com/michaelcolletti
